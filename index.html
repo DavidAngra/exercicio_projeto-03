@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Last Of Us</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+            <div class="container">
+                <!-- <h1 class="navbar-brand m-0 section-title">Restaurante</h1> -->
+                <img src="img/logo.png" alt="" />
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link fw-bold fs-5" href="#sobre">SOBRE</a>
+                        </li>
+
+                        <li class="nav-item fw-bold fs-5">
+                            <a class="nav-link" href="#elenco">CONHEÇA O ELENCO</a>
+                        </li>
+
+                        <li class="nav-item fw-bold fs-5">
+                            <a class="nav-link" href="#comunidade">COMUNIDADE</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <section id="carousel-principal">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="img/01.webp" alt="The last of us" class="d-block w-100" />
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/04.webp" alt="Part 1" class="d-block w-100" />
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/03.webp" alt="Série The last of us" class="d-block w-100" />
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="sobre" class="py-5 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xl-7 col-md-12 p-5 sinopse-container">
+                        <h2 class="text-center mb-5 fw-bold sinopse-title">SINOPSE</h2>
+                        <p class="fw-bold sinopse-text text-center">
+                            <span>The Last of Us</span> é uma aclamada série de jogos de ação e aventura desenvolvida pela Naughty Dog, que narra a jornada emocionante e desafiadora de Joel e Ellie em
+                            um mundo devastado por uma pandemia. Mergulhando em uma narrativa intensa e envolvente, o jogo explora a luta pela sobrevivência, a complexidade das relações humanas e os
+                            limites da moralidade em um cenário pós-apocalíptico. Com gráficos impressionantes, personagens profundamente desenvolvidos e uma trilha sonora cativante, The Last of Us é
+                            uma experiência inesquecível, aclamada tanto pela crítica quanto pelos jogadores. Seja você um veterano na série ou novo no universo, este é um jogo que desafia suas
+                            expectativas e deixa uma marca duradoura.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="elenco" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold elenco-title">CONHEÇA NOSSO ELENCO</h2>
+                </div>
+
+                <div class="row">
+                    <header id="header-elenco" class="col-md-12 mt-4 p-2">
+                        <nav class="nav nav-pills d-md-flex d-sm-block justify-content-sm-center nav-elenco">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#personagens-principais" class="nav-link fw-bold text-start text-colored active">Personagens principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#personagens-secundarios-p1" class="nav-link fw-bold text-start text-colored">
+                                Part I - Personagens secundários
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#personagens-secundarios-p2" class="nav-link fw-bold text-start text-colored">
+                                Part II - Personagens secundários
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#infectados" class="nav-link fw-bold text-start text-colored">
+                                Infectados
+                            </button>
+                            
+                    </header>
+
+                    <div class="col-12 mt-5">
+                        <div class="tab-content">
+                            <!-- personagens principais -->
+                            <div class="tab-pane active" id="personagens-principais">
+                                <div class="row">
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/joel.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">JOEL</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/ellie.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">ELLIE</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/abby.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">ABBY</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim personagens principais -->
+
+                            <!-- part 1 -->
+                            <div class="tab-pane" id="personagens-secundarios-p1">
+                                <div class="row">
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/tess.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">TESS</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/bill.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">BILL</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/henry.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">HENRY</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/sam.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">SAM</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/david.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">DAVID</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/marlene.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">MARLENE</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/riley.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">RILEY</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 1/tommy.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">TOMMY</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- part 1 -->
+
+                            <!-- part 2 -->
+                            <div class="tab-pane" id="personagens-secundarios-p2">
+                                <div class="row">
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 2/yara.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">YARA</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 2/lev.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">LEV</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 2/jesse.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">JESSE</h5>
+                                    </div>
+
+                                    <div class="col-md-3 rounded-3 text-center">
+                                        <img src="img/personagens/part 2/dina.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">DINA</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim part 2 -->
+
+                            <!-- infectados -->
+                            <div class="tab-pane" id="infectados">
+                                <div class="row">
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/corredor.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">CORREDOR</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/espreitador.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">ESPREITADOR</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/estalador.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">ESTALADOR</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/baiacu.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">BAIACU</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/tropego.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">TRÔPEGO</h5>
+                                    </div>
+
+                                    <div class="col-md-4 rounded-3 text-center">
+                                        <img src="img/personagens/infectados/reiDosRatos.webp" alt="joel" class="d-block w-100 rounded-3" />
+                                        <h5 class="text-colored fw-bold mt-4 fs-1">REI DOS RATOS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim infectados -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- comunidade -->
+            <section id="comunidade" class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="fw-bold text-center comunidade-title">COMUNIDADE THE LAST OF US</h2>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7 mb-5">
+                            <p class="fs-4 text-colored">Inspirados no mundo de The Last of Us, fãs encontraram diversas maneiras de demonstrar o amor pela série e expressar a criatividade. Aprenda a fazer cosplay dos seus personagens favoritos e explore novas maneiras de celebrar e compartilhar seu amor pelo universo de The Last of Us. Cadastrese-se agora mesmo!</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                    <input type="text" name="nome" id="nome" class="form-control" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
+                                    <input type="email" name="email" id="email" class="form-control" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                                    <input type="tel" name="telefone" id="telefone" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem:</label>
+                                    <textarea id="mensagem" class="form-control" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary fw-bold text-center">Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fim comunidade -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

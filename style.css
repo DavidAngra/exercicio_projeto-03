@@ -1,0 +1,125 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+header img {
+    height: 1.5em;
+}
+.nav .nav-link {
+    color: #000;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+#sobre {
+    background-image: url(img/background_sobre.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 92vh;
+}
+
+.sinopse-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sinopse-text {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+}
+
+.sinopse-title {
+    color: #fff;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+
+#elenco {
+    background-image: url(img/background_elenco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.elenco-title,
+.comunidade-title {
+    color: #fff;
+    font-size: 4em;
+}
+
+#header-elenco {
+    background: #000;
+    border-radius: 60px;
+}
+
+.text-colored {
+    color: #fff;
+}
+
+.nav-elenco .text-colored {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.nav-elenco .nav-link.active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 40px;
+}
+
+#comunidade {
+    background-image: url(img/background-comunidade.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 1.3em;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .sinopse-container {
+        height: 70vh;
+    }
+
+    .sinopse-container .sinopse-text {
+        font-size: 1.1em;
+    }
+
+    #header-elenco {
+        background: #000;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .sinopse-container .sinopse-text {
+        font-size: 0.74em;
+    }
+
+    .sinopse-title {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 510px) {
+    .sinopse-container .sinopse-text {
+        font-size: 0.8em;
+    }
+}
